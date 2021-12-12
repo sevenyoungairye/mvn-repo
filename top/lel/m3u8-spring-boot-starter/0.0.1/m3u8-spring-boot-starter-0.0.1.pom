@@ -56,7 +56,9 @@
         </dependencies>
     </dependencyManagement>
 
-    <!-- mvn deploy -DaltDeploymentRepository=${github-lel-m3u8}::default::file:${E:\GithubRepository\Java\maven\mvn-repo\} -->
+    <!-- 1. 部署-->
+    <!-- 2. 使用-->
+    <!-- mvn deploy -DaltDeploymentRepository=github-lel-m3u8::default::file:E:\GithubRepository\Java\maven\mvn-repo -->
     <!--mvn deploy -DaltDeploymentRepository=${distribute_id}::default::file:${git_repo_path}-->
     <distributionManagement>
         <!--部署仓库id-->
